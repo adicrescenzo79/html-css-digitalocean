@@ -1,19 +1,44 @@
+/* general */
+
 body{
   font-family: 'Inter', sans-serif;
 }
 
+/* common */
+.btn-white{
+  background-color: #fff!important;
+  color: #2386FD!important;
+  font-weight: bold!important;
+  border: 1px solid #2386FD;
+  border-radius: 5px;
+}
 
+.btn-small{
+  padding: 10px 10px;
+}
 
+.btn-white:hover{
+  background-color: #2386FD!important;
+  color: #fff!important;
+}
 
 /* header navbar */
 .navbar{
-  font-weight: bold;
-  font-size: 14px;
+  margin-bottom: 0;
 }
 
 .navbar .navbar-brand{
-  height: 50px;
-  line-height: 50px;
+  padding-top: 18px;
+}
+
+.navbar-nav{
+  padding: 10px 0;
+}
+
+.navbar li a{
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
 }
 
 .navbar .logo{
@@ -21,6 +46,18 @@ body{
   line-height: 50px;
 }
 
-.navbar i{
-  margin-left: 2px;
+.navbar li a:hover{
+  color: #2386FD;
+  background-color: #fff;
+}
+
+.navbar li a i{
+  margin-left: 3px;
+  color: #000;
+}
+
+
+#jumbo{
+  background-color: blue;
+  height: 500px;
 }
