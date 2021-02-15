@@ -1,0 +1,26 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+/* header navbar */
+.navbar{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar .navbar-brand{
+  height: 50px;
+  line-height: 50px;
+}
+
+.navbar .logo{
+  height: 29px;
+  line-height: 50px;
+}
+
+.navbar i{
+  margin-left: 2px;
+}
