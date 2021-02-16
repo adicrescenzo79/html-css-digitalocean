@@ -120,6 +120,12 @@ p{
   margin-top: 100px;
 }
 
+.pallini a{
+  padding: 4px;
+  border: 1px solid #006AFF;
+  border-radius: 50%;
+  display: inline-block;
+}
 
 /* header navbar */
 .navbar{
@@ -263,12 +269,6 @@ padding-left: 0;
   display: block;
 }
 
-#developers a{
-  padding: 4px;
-  border: 1px solid #006AFF;
-  border-radius: 50%;
-  display: inline-block;
-}
 
 /* main features */
 #features{
@@ -318,6 +318,23 @@ padding-left: 0;
   margin-left: 5px;
 }
 
+#teams{
+  background-color: #F3F5F9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#teams .card{
+  width: 100%;
+}
+
+#teams .card img{
+  width: 100%;
+}
+
+#teams i{
+  display: none;
+}
 
 @media all and (min-width:768px) {
   /* common */
