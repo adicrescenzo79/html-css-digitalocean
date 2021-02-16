@@ -11,6 +11,11 @@ h1{
   font-size: 1.6em;
 }
 
+h2{
+  font-weight: bolder;
+  font-size: 1.42em;
+}
+
 h3{
   font-weight: bolder;
   font-size: 1.24em;
@@ -22,7 +27,7 @@ h6{
 }
 
 p{
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .text-white{
@@ -32,6 +37,11 @@ p{
 .text-blue{
   color: #006AFF;
 }
+
+.text-grey{
+  color: #5C6A88;
+}
+
 
 .btn-white{
   background-color: #fff!important;
@@ -187,6 +197,18 @@ p{
 
 #partners .logo{
   width: 70%;
+}
+
+/* main deploy */
+#deploy ul{
+padding-left: 0;
+}
+
+#deploy ul li{
+  list-style: none;
+  font-weight: 500;
+  border-left: 2px solid lightgrey;
+  padding-left: 10px;
 }
 
 @media all and (min-width:768px) {
