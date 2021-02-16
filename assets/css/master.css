@@ -1,11 +1,10 @@
-/* general */
+/* common */
 
 body{
   font-family: 'Inter', sans-serif;
   font-size: 22px;
 }
 
-/* common */
 h1{
   font-weight: bolder;
   font-size: 1.6em;
@@ -243,6 +242,7 @@ padding-left: 0;
   font-size: 16px;
 }
 
+/* main developers */
 #developers{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -272,6 +272,7 @@ padding-left: 0;
 
 
 @media all and (min-width:768px) {
+  /* common */
   .container{
     width: 96%;
   }
@@ -284,6 +285,7 @@ padding-left: 0;
     margin-top: 20px;
   }
 
+  /* header navbar */
   .navbar .navbar-brand{
     padding-top: 18px;
   }
@@ -297,14 +299,17 @@ padding-left: 0;
     display: none!important;
   }
 
+  /* main partners */
   #partners .logo {
     width: 100%;
   }
 
+  /* main deploy */
   #deploy .container-special{
     width: 80%;
   }
 
+  /* main developers */
   #developers i{
     display: inline-block;
     font-size: 25px;
@@ -314,10 +319,12 @@ padding-left: 0;
 }
 
 @media all and (min-width: 992px) {
+  /* common */
   .container{
     width: 70%;
   }
 
+  /* header navbar */
   .navbar-toggle {
     display: none!important;
     left: 0;
