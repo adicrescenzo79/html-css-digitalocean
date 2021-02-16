@@ -21,6 +21,16 @@ h3{
   font-size: 1.24em;
 }
 
+h4{
+  font-weight: bolder;
+  font-size: 1.06em;
+}
+
+h5{
+  font-weight: bolder;
+  font-size: .88em;
+}
+
 h6{
   font-size: 14px;
   font-weight: bolder;
@@ -200,18 +210,41 @@ p{
 }
 
 /* main deploy */
+#deploy{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #deploy ul{
 padding-left: 0;
 }
 
 #deploy ul li{
   list-style: none;
+  font-size: 18px;
   font-weight: 500;
   border-left: 2px solid lightgrey;
+  padding: 10px 0;
   padding-left: 10px;
 }
 
+#deploy h5 + p{
+  font-size: 16px;
+}
+
 @media all and (min-width:768px) {
+  .container{
+    width: 96%;
+  }
+
+  .mt-sm-50{
+    margin-top: 50px;
+  }
+
+  .mt-sm-20{
+    margin-top: 20px;
+  }
+
   .navbar .navbar-brand{
     padding-top: 18px;
   }
@@ -227,6 +260,10 @@ padding-left: 0;
 
   #partners .logo {
     width: 100%;
+  }
+
+  #deploy .container-special{
+    width: 80%;
   }
 }
 
