@@ -11,9 +11,22 @@ h1{
   font-size: 1.6em;
 }
 
+h3{
+  font-weight: bolder;
+  font-size: 1.24em;
+}
 p{
   font-weight: 300;
 }
+
+.text-white{
+  color: #fff;
+}
+
+.text-blue{
+  color: #006AFF;
+}
+
 
 .btn-white{
   background-color: #fff!important;
@@ -21,6 +34,11 @@ p{
   font-weight: bold!important;
   border: 1px solid #2386FD;
   border-radius: 5px;
+}
+
+.btn-blue{
+  background-color: #579AFF;
+  color: #fff;
 }
 
 .btn-small{
@@ -32,6 +50,31 @@ p{
   color: #fff!important;
 }
 
+.card{
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+::placeholder{
+  font-weight: bold;
+}
+
+.icon-small{
+  height: 28px;
+}
+
+.note{
+  font-size: 12px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.note a{
+  text-decoration: underline;
+}
 /* header navbar */
 .navbar{
   margin-bottom: 0;
@@ -83,9 +126,34 @@ p{
 /* header jumbo */
 #jumbo{
   margin-top: 72px;
-  color: #fff;
   background-color: blue;
   padding-top: 50px;
+  height: 1000px;
+}
+
+#jumbo form{
+  padding: 0 20px;
+}
+
+#jumbo .card button{
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+#jumbo .card button img{
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+#jumbo .my-btn-default{
+  color: #707070;
+  border-right: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  background-color: #fff;
+  /* box-shadow: 5px 10px 8px #888888 */
 }
 
 @media all and (min-width:768px) {
