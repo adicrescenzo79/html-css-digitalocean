@@ -126,9 +126,11 @@ p{
 /* header jumbo */
 #jumbo{
   margin-top: 72px;
-  background-color: blue;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  background-position: center center;
   padding-top: 50px;
-  height: 1000px;
+  padding-bottom: 50px;
 }
 
 #jumbo form{
@@ -174,7 +176,7 @@ p{
 
 @media all and (min-width: 992px) {
   .container{
-    width: 80%;
+    width: 70%;
   }
 
   .navbar-toggle {
