@@ -15,6 +15,12 @@ h3{
   font-weight: bolder;
   font-size: 1.24em;
 }
+
+h6{
+  font-size: 14px;
+  font-weight: bolder;
+}
+
 p{
   font-weight: 300;
 }
@@ -26,7 +32,6 @@ p{
 .text-blue{
   color: #006AFF;
 }
-
 
 .btn-white{
   background-color: #fff!important;
@@ -69,11 +74,22 @@ p{
 .note{
   font-size: 12px;
   font-weight: bolder;
-  color: #000;
 }
 
 .note a{
   text-decoration: underline;
+}
+
+.mt-xs-50{
+  margin-top: 50px;
+}
+
+.mt-xs-20{
+  margin-top: 20px;
+}
+
+.mt-sm-20{
+  margin-top: 20px;
 }
 /* header navbar */
 .navbar{
@@ -158,6 +174,21 @@ p{
   /* box-shadow: 5px 10px 8px #888888 */
 }
 
+/* main partners */
+#partners{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #F3F5F9;
+}
+
+#partners h6{
+  color: #5b6987;
+}
+
+#partners .logo{
+  width: 70%;
+}
+
 @media all and (min-width:768px) {
   .navbar .navbar-brand{
     padding-top: 18px;
@@ -172,6 +203,9 @@ p{
     display: none!important;
   }
 
+  #partners .logo {
+    width: 100%;
+  }
 }
 
 @media all and (min-width: 992px) {
