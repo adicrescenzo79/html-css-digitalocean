@@ -127,6 +127,10 @@ p{
   display: inline-block;
 }
 
+.normal{
+  font-weight: 500;
+}
+
 /* header navbar */
 .navbar{
   margin-bottom: 0;
@@ -318,23 +322,42 @@ padding-left: 0;
   margin-left: 5px;
 }
 
+/* main teams */
 #teams{
-  background-color: #F3F5F9;
+  /* background-color: #F3F5F9; */
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: red;
+}
+
+#teams i{
+  display: none;
 }
 
 #teams .card{
-  width: 100%;
+  width: 50%;
+  /* margin: auto 0; */
+  display: inline-block;
 }
 
 #teams .card img{
   width: 100%;
 }
 
-#teams i{
-  display: none;
+#teams .card span{
+  display: block;
 }
+
+#teams .card a{
+  text-decoration: none;
+}
+
+#teams .card i{
+  display: inline-block;
+  font-size: 8px;
+  margin-left: 5px;
+  }
+
 
 @media all and (min-width:768px) {
   /* common */
@@ -379,6 +402,13 @@ padding-left: 0;
     display: inline-block;
     font-size: 25px;
     font-weight: 700;
+  }
+
+  /* main teams */
+  #teams i{
+    display: inline-block;
+    height: 100%;
+    line-height: 100%;
   }
 
 }
