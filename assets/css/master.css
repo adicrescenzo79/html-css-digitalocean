@@ -385,7 +385,6 @@ padding-left: 0;
   margin-top: 5px;
 }
 
-
 #links social a{
   margin-right: 10px;
 }
@@ -403,6 +402,55 @@ padding-left: 0;
   color: #fff;
   font-weight: 200;
   text-decoration: none;
+}
+
+/* footer help */
+#help{
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
+}
+
+#help .icona{
+  height: 50px;
+  width: 50px;
+  background-image: url(../img/shark.jfif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  position: relative;
+}
+
+#help .badge{
+  position: absolute;
+  bottom: 38px;
+  left: 38px;
+  background-color: red;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-weight: 300;
+  padding: 3px 6px;
+}
+
+#help .message{
+  background-color: #fff;
+  color: #000;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+}
+
+#help .comic{
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: 295px;
+  bottom: 10px;
+  transform: rotate(45deg);
 }
 
 @media all and (min-width:768px) {
@@ -493,4 +541,18 @@ padding-left: 0;
     width: 60%;
   }
 
+  #help{
+    position: fixed;
+    display: inline-block;
+    right: 40px;
+    bottom: 40px;
+  }
+
+  #help .icona,
+  #help .message{
+    display: inline-block;
+    margin-top: 0;
+    float: right;
+    margin-left: 20px;
+  }
 }
