@@ -128,7 +128,7 @@ p{
 }
 
 .normal{
-  font-weight: 500;
+  font-weight: 300;
 }
 
 /* header navbar */
@@ -358,7 +358,7 @@ padding-left: 0;
   font-size: 8px;
   margin-left: 5px;
 }
-/* now */
+/* main now */
 #now{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -367,6 +367,42 @@ padding-left: 0;
 
 #now a{
   font-size: 14px;
+}
+
+/* footer links */
+#links{
+  background-color: #031C4E;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#links img{
+  height: 50px;
+}
+
+#links span{
+  display: block;
+  margin-top: 5px;
+}
+
+
+#links social a{
+  margin-right: 10px;
+}
+
+#links ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#links ul li{
+  margin-top: 5px;
+}
+
+#links ul a{
+  color: #fff;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 @media all and (min-width:768px) {
